@@ -1,27 +1,49 @@
-# Node/React dependencies (all folders)
+# =====================
+# Node/React dependencies
+# =====================
 **/node_modules/
 **/.pnp
 **/.pnp.js
 
-# Build output (all folders)
+# =====================
+# Build output
+# =====================
 **/build/
 **/dist/
 
-# Coverage
+# =====================
+# Coverage reports
+# =====================
 **/coverage/
 
-# Env files
+# =====================
+# Environment files
+# =====================
 **/.env
 **/.env.local
 **/.env.development.local
 **/.env.test.local
 **/.env.production.local
 
+# =====================
 # Logs
+# =====================
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# =====================
 # OS files
+# =====================
 .DS_Store
 Thumbs.db
+
+# =====================
+# Editor/IDE files (optional, if using VSCode)
+# =====================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
